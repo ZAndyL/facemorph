@@ -8,6 +8,7 @@ How to use:
 python facemorph.py shape_predictor_68_face_landmarks.dat hillary_clinton.jpg ted_cruz.jpg 
 
 Sample output:
+
 ![Alt text](sample_output/0.1.jpg?raw=true "0.1")
 ![Alt text](sample_output/0.3.jpg?raw=true "0.3")
 ![Alt text](sample_output/0.5.jpg?raw=true "0.5")
