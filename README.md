@@ -21,5 +21,4 @@ Images have to be the same size, only one face per image.
 To Do:
 Auto center and crop so images of different sizes are supported
 Allow multiple faces per image and choosing which face to morph
-Custom deserializer of shape_predictor_68_face_landmarks.dat file and reduce size of shape_predictor_68_face_landmarks.dat
 Port to mobile app
