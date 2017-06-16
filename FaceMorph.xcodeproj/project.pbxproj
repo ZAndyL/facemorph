@@ -1,0 +1,1253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0793548085F14F44837F61B4 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DEC4CF276914490C97890268 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				21973FE26B1E4CDB96D675C9 /* CMake Rules */,
+			);
+			dependencies = (
+				1E21374851BD44C09E4A1BDC /* PBXTargetDependency */,
+				278F1B3AF63E4AD5A96D6E74 /* PBXTargetDependency */,
+				55E63AEB10F04A2C9A41258A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		26DAD13D8F304C4292958139 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C83C2F1E627F4111B47712E9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				321E6AC1CD09484E88EB0901 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01455F7A57174CAF896BACC1 /* /Users/andy/dev/facemorph/FaceMorph.cpp */ = {isa = PBXBuildFile; fileRef = 4CFCA967DE7147F1ADDAB896 /* /Users/andy/dev/facemorph/FaceMorph.cpp */; };
+		0BF49AEA86A84AA5ACB554FD /* /Users/andy/dev/dlib/dlib/data_io/mnist.cpp */ = {isa = PBXBuildFile; fileRef = 2BEA73CFFE8C4F359FDFD6C6 /* /Users/andy/dev/dlib/dlib/data_io/mnist.cpp */; };
+		14C9EE00E0CA4E1397E7A00B /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctflt.cpp */ = {isa = PBXBuildFile; fileRef = 12B78A7CF5D24E4B9F92D76A /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctflt.cpp */; };
+		1C66185E842E42FBB19C6C05 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdphuff.cpp */ = {isa = PBXBuildFile; fileRef = 1A0D6FD7D4464CFC8212B7FF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdphuff.cpp */; };
+		1DAC118D04E349679B6CE856 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jutils.cpp */ = {isa = PBXBuildFile; fileRef = DB55679569E346ECAD89BE89 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jutils.cpp */; };
+		1E37843D7EA34F1B9FE88F68 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jerror.cpp */ = {isa = PBXBuildFile; fileRef = CC325BA8B984416E8A4CDC3D /* /Users/andy/dev/dlib/dlib/external/libjpeg/jerror.cpp */; };
+		1FF1C429FB444A3BA7BC3C9F /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcprepct.cpp */ = {isa = PBXBuildFile; fileRef = E64799C95C594E11BA931B96 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcprepct.cpp */; };
+		2145DF0A02334D98B2B51E30 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctint.cpp */ = {isa = PBXBuildFile; fileRef = EE27DE1310B54FE1BF10A70B /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctint.cpp */; };
+		24BD68A7D5E1435BBD878F33 /* /Users/andy/dev/dlib/dlib/image_saver/save_jpeg.cpp */ = {isa = PBXBuildFile; fileRef = 599ADEC14DD24CF7AE4A654C /* /Users/andy/dev/dlib/dlib/image_saver/save_jpeg.cpp */; };
+		251DFA5696E04E08A409079B /* /Users/andy/dev/dlib/dlib/tokenizer/tokenizer_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 90AA3178CCF7470D9588FF9D /* /Users/andy/dev/dlib/dlib/tokenizer/tokenizer_kernel_1.cpp */; };
+		269BD0B23BF44CE1957C0CE8 /* /Users/andy/dev/dlib/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 056E7C5D2FED42CA86B3D8BB /* /Users/andy/dev/dlib/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp */; };
+		26BBF9B174A14314858112A1 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdpostct.cpp */ = {isa = PBXBuildFile; fileRef = B2EDA7DE1E644BD08515D574 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdpostct.cpp */; };
+		27FCAFEDD5CA4552B42AEE9C /* /Users/andy/dev/dlib/dlib/image_loader/png_loader.cpp */ = {isa = PBXBuildFile; fileRef = 0733DF88DB98488F87A2BA3B /* /Users/andy/dev/dlib/dlib/image_loader/png_loader.cpp */; };
+		2DAEDE38941E46C2B207761E /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdcoefct.cpp */ = {isa = PBXBuildFile; fileRef = 95C9D0FF449A41FC9DF4C5B2 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdcoefct.cpp */; };
+		2F3170D006DC4EF09022F1DE /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdatasrc.cpp */ = {isa = PBXBuildFile; fileRef = B90F0FBF975147E7AF511C20 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdatasrc.cpp */; };
+		2F836A89648D480A961E8193 /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = BF17111F4BE64CEEA6AAEC2E /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_kernel_1.cpp */; };
+		30B07482BFC246D3A388D424 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcapistd.cpp */ = {isa = PBXBuildFile; fileRef = 252BE1BB2F1E40AF9D461AC9 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcapistd.cpp */; };
+		30EB3892168342A8ADDD2A7E /* /Users/andy/dev/dlib/dlib/logger/extra_logger_headers.cpp */ = {isa = PBXBuildFile; fileRef = C34599C6F5564D5788F9F16E /* /Users/andy/dev/dlib/dlib/logger/extra_logger_headers.cpp */; };
+		31512282122A40B192EF368C /* /Users/andy/dev/dlib/dlib/sockets/sockets_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = 056A5C7AD2D5425F87E6C85E /* /Users/andy/dev/dlib/dlib/sockets/sockets_kernel_2.cpp */; };
+		31F7CCEE81A0451D9A30545C /* /Users/andy/dev/dlib/dlib/linker/linker_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 86370CF5037A420499FE9292 /* /Users/andy/dev/dlib/dlib/linker/linker_kernel_1.cpp */; };
+		33D69E2C9EE44166A81A3784 /* /Users/andy/dev/dlib/dlib/gui_widgets/canvas_drawing.cpp */ = {isa = PBXBuildFile; fileRef = 0B865C799A0E4337BFB90AFE /* /Users/andy/dev/dlib/dlib/gui_widgets/canvas_drawing.cpp */; };
+		35AD1CB8826C4FCCB9809FBC /* /Users/andy/dev/dlib/dlib/gui_core/gui_core_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 9201CBAD32A7470C92DDD528 /* /Users/andy/dev/dlib/dlib/gui_core/gui_core_kernel_1.cpp */; };
+		36080B72B4C24BBCA1062F16 /* /Users/andy/dev/dlib/dlib/logger/logger_config_file.cpp */ = {isa = PBXBuildFile; fileRef = F62B747567AA497597B6421B /* /Users/andy/dev/dlib/dlib/logger/logger_config_file.cpp */; };
+		3CA4D7F122A1489F81969FCA /* /Users/andy/dev/dlib/dlib/gui_widgets/fonts.cpp */ = {isa = PBXBuildFile; fileRef = 8D7463BB0BA447B6B1DBEA15 /* /Users/andy/dev/dlib/dlib/gui_widgets/fonts.cpp */; };
+		3F8BF5D9433D4573A5E562D1 /* /Users/andy/dev/dlib/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 73FE5A609488431AA3E9C9F5 /* /Users/andy/dev/dlib/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp */; };
+		410E7D2CDB7E4299B668CB83 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcinit.cpp */ = {isa = PBXBuildFile; fileRef = 0C227C09E1184007ABDC71EA /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcinit.cpp */; };
+		43898E74CC2E4463884CE775 /* /Users/andy/dev/dlib/dlib/gui_widgets/widgets.cpp */ = {isa = PBXBuildFile; fileRef = 4EEDBA134DEF4FB789CFD7A4 /* /Users/andy/dev/dlib/dlib/gui_widgets/widgets.cpp */; };
+		451F64649FB04C50801604A8 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmerge.cpp */ = {isa = PBXBuildFile; fileRef = 9597736FF7BB47E799763F67 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmerge.cpp */; };
+		463D52A911C34DA8B4800739 /* /Users/andy/dev/dlib/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = 483AC1F97D8A4681A33005EC /* /Users/andy/dev/dlib/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp */; };
+		4640F868A7AF4973A2484157 /* /Users/andy/dev/dlib/dlib/server/server_kernel.cpp */ = {isa = PBXBuildFile; fileRef = 9FF8C706AFA9440390A7F1EB /* /Users/andy/dev/dlib/dlib/server/server_kernel.cpp */; };
+		4A4CAA1FD2394D929D97E17D /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdcolor.cpp */ = {isa = PBXBuildFile; fileRef = 75FF98F663084D9B9D16B061 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdcolor.cpp */; };
+		4EE0282A3A9645FE96D3189B /* /Users/andy/dev/dlib/dlib/logger/logger_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 782FCD724FA149BA8F7B25BD /* /Users/andy/dev/dlib/dlib/logger/logger_kernel_1.cpp */; };
+		4EFE48DFCA834968985529C1 /* /Users/andy/dev/dlib/dlib/gui_widgets/style.cpp */ = {isa = PBXBuildFile; fileRef = 77EC97A8D0CA494A85CF7C36 /* /Users/andy/dev/dlib/dlib/gui_widgets/style.cpp */; };
+		4FECB469F304484C9622E53D /* /Users/andy/dev/dlib/dlib/bsp/bsp.cpp */ = {isa = PBXBuildFile; fileRef = E9B2A5EAD3E24F73BA1585D0 /* /Users/andy/dev/dlib/dlib/bsp/bsp.cpp */; };
+		51F3AB1E584A4B0D9A9D417C /* /Users/andy/dev/dlib/dlib/external/libjpeg/jquant2.cpp */ = {isa = PBXBuildFile; fileRef = E6047D6C88D8480D8785A5D7 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jquant2.cpp */; };
+		5D08F4CEE5534E8C984FBEB0 /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = FD409838FEA34EF5BDD9BEE6 /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_kernel_2.cpp */; };
+		5F1A2D3D321447459BEF3C01 /* /Users/andy/dev/dlib/dlib/threads/async.cpp */ = {isa = PBXBuildFile; fileRef = CAB318B489CC451284172F27 /* /Users/andy/dev/dlib/dlib/threads/async.cpp */; };
+		633D6B0E4EEE4F5594CE0CA4 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdhuff.cpp */ = {isa = PBXBuildFile; fileRef = 1D4F8E315DCC43919356E93E /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdhuff.cpp */; };
+		6515F8C1EFAF4AF8A9D183F8 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmainct.cpp */ = {isa = PBXBuildFile; fileRef = 795E2F67B2A34B0793968248 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmainct.cpp */; };
+		66C0C697683E42B081BB0134 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jccolor.cpp */ = {isa = PBXBuildFile; fileRef = 87FB330EE21D4D24B6526D02 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jccolor.cpp */; };
+		6B09338F55D148718B22FE63 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jmemnobs.cpp */ = {isa = PBXBuildFile; fileRef = 8F79878BE066426A918D05A3 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jmemnobs.cpp */; };
+		6EA6F1D5CCE349828D4E8ED6 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmarker.cpp */ = {isa = PBXBuildFile; fileRef = EA481B2DD8AC421DB558A946 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmarker.cpp */; };
+		6EBB0CC020AE4B30BD81B643 /* /Users/andy/dev/dlib/dlib/threads/multithreaded_object_extension.cpp */ = {isa = PBXBuildFile; fileRef = BAEAEC8D56604E07BAB79C8B /* /Users/andy/dev/dlib/dlib/threads/multithreaded_object_extension.cpp */; };
+		70CE3CB8FDED422A80440C4B /* /Users/andy/dev/facemorph/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C72FC304817242B0ACE8AE05 /* /Users/andy/dev/facemorph/CMakeLists.txt */; };
+		7215FB21D0FB4D9EA651A003 /* /Users/andy/dev/dlib/dlib/gui_core/gui_core_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = 5D7D6DC0BFE2453FA07DC347 /* /Users/andy/dev/dlib/dlib/gui_core/gui_core_kernel_2.cpp */; };
+		7848BCA779924F609DDAD034 /* /Users/andy/dev/dlib/dlib/gui_widgets/base_widgets.cpp */ = {isa = PBXBuildFile; fileRef = 1FD8690C8C8F4689B2AA13FB /* /Users/andy/dev/dlib/dlib/gui_widgets/base_widgets.cpp */; };
+		7AFBD0E80C50491EAD3B37E2 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctred.cpp */ = {isa = PBXBuildFile; fileRef = D110E9E272CB401C853E6786 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctred.cpp */; };
+		7B05EC9E93CB4118B0F12748 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jccoefct.cpp */ = {isa = PBXBuildFile; fileRef = BCD1E3F1AA0C409A885A6C72 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jccoefct.cpp */; };
+		7B5566ED7BEB49B6BFBB218E /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmarker.cpp */ = {isa = PBXBuildFile; fileRef = C73D05FF55A0471E8868CA50 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmarker.cpp */; };
+		7B85EEF274AE4B61932AB963 /* /Users/andy/dev/dlib/dlib/server/server_http.cpp */ = {isa = PBXBuildFile; fileRef = 1DAA1112C0B94B4ABD0233D0 /* /Users/andy/dev/dlib/dlib/server/server_http.cpp */; };
+		81B79C9EAB8A486488389BBE /* /Users/andy/dev/dlib/dlib/sockstreambuf/sockstreambuf.cpp */ = {isa = PBXBuildFile; fileRef = 7DC51AB4211C41BA8DC0ED03 /* /Users/andy/dev/dlib/dlib/sockstreambuf/sockstreambuf.cpp */; };
+		8304892C0FBA4CD48156AABF /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = FF9A2B4534294734BE9CA3E1 /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_2.cpp */; };
+		8A78BFD3D0F8493E9FBFA235 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcparam.cpp */ = {isa = PBXBuildFile; fileRef = C06FB183A6CC4CD4BCE01DEB /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcparam.cpp */; };
+		8D580BE5D5064DD48C15653B /* /Users/andy/dev/dlib/dlib/stack_trace.cpp */ = {isa = PBXBuildFile; fileRef = B94479FDCE8F44308D9DD298 /* /Users/andy/dev/dlib/dlib/stack_trace.cpp */; };
+		8E8DF237EB04480BA959E9D2 /* /Users/andy/dev/dlib/dlib/md5/md5_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = F5A86E18EE184E029A889995 /* /Users/andy/dev/dlib/dlib/md5/md5_kernel_1.cpp */; };
+		8EBAB72D5F924A3E963CD588 /* /Users/andy/dev/dlib/dlib/data_io/image_dataset_metadata.cpp */ = {isa = PBXBuildFile; fileRef = 4AB1D631A5BF4C2D8EABF041 /* /Users/andy/dev/dlib/dlib/data_io/image_dataset_metadata.cpp */; };
+		8EBBD25A5733459F859C033E /* /Users/andy/dev/dlib/dlib/dnn/cpu_dlib.cpp */ = {isa = PBXBuildFile; fileRef = B7C15BDB8BF943A7BC0DBA9F /* /Users/andy/dev/dlib/dlib/dnn/cpu_dlib.cpp */; };
+		9A9E087AD8CB49D0AFAD2671 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcapimin.cpp */ = {isa = PBXBuildFile; fileRef = 3BE1C217952A4C69BDAAB6D4 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcapimin.cpp */; };
+		9AF9E7A53DBE45A5B3D8BD52 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdatadst.cpp */ = {isa = PBXBuildFile; fileRef = 399E24C6FD734238A43E03F3 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdatadst.cpp */; };
+		9C50F4C94E4741B7B4107067 /* /Users/andy/dev/dlib/dlib/base64/base64_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 67BDDC58B3C54164BE7AF8D6 /* /Users/andy/dev/dlib/dlib/base64/base64_kernel_1.cpp */; };
+		9F6B04A329184E89B2E2AEC8 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctfst.cpp */ = {isa = PBXBuildFile; fileRef = FF67AB60662D4D799FD7E3BF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctfst.cpp */; };
+		A17E813B06E643FAA6E5E21A /* /Users/andy/dev/dlib/dlib/server/server_iostream.cpp */ = {isa = PBXBuildFile; fileRef = 03DE59DDF20E4D21877A47F0 /* /Users/andy/dev/dlib/dlib/server/server_iostream.cpp */; };
+		A24AE54325744890A67F29C2 /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_shared.cpp */ = {isa = PBXBuildFile; fileRef = C15CD5EBB9DD4601AD846ECC /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_shared.cpp */; };
+		A280BD0455E9481B9C2561EE /* /Users/andy/dev/dlib/dlib/bit_stream/bit_stream_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = AC5764573C584FFAAF1AC05F /* /Users/andy/dev/dlib/dlib/bit_stream/bit_stream_kernel_1.cpp */; };
+		A296CD1637DB4B22B2B0E6CF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdsample.cpp */ = {isa = PBXBuildFile; fileRef = D956E0D4D0DE439C8A19FDC9 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdsample.cpp */; };
+		A4144248DE9544C7BC0F3DCF /* /Users/andy/dev/dlib/dlib/misc_api/misc_api_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 991F89E03BCE4E59B5BAA388 /* /Users/andy/dev/dlib/dlib/misc_api/misc_api_kernel_1.cpp */; };
+		A42E0D0118414633B1924DB4 /* /Users/andy/dev/dlib/dlib/threads/thread_pool_extension.cpp */ = {isa = PBXBuildFile; fileRef = BFA872875DF94A7696826D85 /* /Users/andy/dev/dlib/dlib/threads/thread_pool_extension.cpp */; };
+		A533C5A09ED54D6F9CC6FC70 /* /Users/andy/dev/dlib/dlib/threads/threaded_object_extension.cpp */ = {isa = PBXBuildFile; fileRef = A538F1966D8E4099B7DCC985 /* /Users/andy/dev/dlib/dlib/threads/threaded_object_extension.cpp */; };
+		A6C75962841945EF9DE9CBFC /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctfst.cpp */ = {isa = PBXBuildFile; fileRef = FE3066514D944E28AC72D3CF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctfst.cpp */; };
+		A6DFC2B7424E4317A88B5F6B /* /Users/andy/dev/dlib/dlib/external/libjpeg/jmemmgr.cpp */ = {isa = PBXBuildFile; fileRef = 410E6CD668164EC3B74B0AF2 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jmemmgr.cpp */; };
+		A8BDEF10818149C9B30225DD /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmaster.cpp */ = {isa = PBXBuildFile; fileRef = AB334B115BB1426296914035 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmaster.cpp */; };
+		B0E2365CC7A341A887943326 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdinput.cpp */ = {isa = PBXBuildFile; fileRef = 2C875CFC92ED4AFDA9243CD6 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdinput.cpp */; };
+		B253CA770A0C4D55AC4D4C68 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jchuff.cpp */ = {isa = PBXBuildFile; fileRef = B9AAC75D5FEC40C58EE0E4EF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jchuff.cpp */; };
+		B596827996454B0A86340805 /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_extensions.cpp */ = {isa = PBXBuildFile; fileRef = C24FCC434CFC4BB98BCDBCAC /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_extensions.cpp */; };
+		B75E200AD11F42C0BE16EF48 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jquant1.cpp */ = {isa = PBXBuildFile; fileRef = 38EF5BDEA6414F368ABDE5EC /* /Users/andy/dev/dlib/dlib/external/libjpeg/jquant1.cpp */; };
+		B7B06928477D4BE296690A6C /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = E12BF70CA9C74B73A48FA57E /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_1.cpp */; };
+		B804565A74D94CFEA42827B9 /* /Users/andy/dev/dlib/dlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EBA294BC54714380A2591F10 /* /Users/andy/dev/dlib/dlib/CMakeLists.txt */; };
+		B84B02EFDFAE4E54AFC6C047 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdapimin.cpp */ = {isa = PBXBuildFile; fileRef = 5ADEF18CB5FD4717AD3F99C5 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdapimin.cpp */; };
+		B869E15C2BD24481A3638C4F /* /Users/andy/dev/dlib/dlib/misc_api/misc_api_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = 6A816C8B71084B7AA5DEDCC0 /* /Users/andy/dev/dlib/dlib/misc_api/misc_api_kernel_2.cpp */; };
+		B95A161EF7AF45CD88D9DC86 /* /Users/andy/dev/dlib/dlib/unicode/unicode.cpp */ = {isa = PBXBuildFile; fileRef = CB812739507249E193291D87 /* /Users/andy/dev/dlib/dlib/unicode/unicode.cpp */; };
+		BFA4E4A0D87347FEB4A7D074 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcomapi.cpp */ = {isa = PBXBuildFile; fileRef = C5AE1E389386449393DB5C46 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcomapi.cpp */; };
+		C08686AFC11C43E59AC0D2FF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctint.cpp */ = {isa = PBXBuildFile; fileRef = 07A79800210D47BC8B3A52CB /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctint.cpp */; };
+		C552E0AC9E444F8AACF6C72E /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcsample.cpp */ = {isa = PBXBuildFile; fileRef = C3C878F285F0477F847B36C9 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcsample.cpp */; };
+		C7511C7DB9724F1FBEAA56C3 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcdctmgr.cpp */ = {isa = PBXBuildFile; fileRef = 6C3973D66925438090E93A18 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcdctmgr.cpp */; };
+		CA7BB689EE96408DBF06A93A /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdapistd.cpp */ = {isa = PBXBuildFile; fileRef = 08C8F31BCF34492BA2584100 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdapistd.cpp */; };
+		CCE1FF3EC52843EFA5E087EC /* /Users/andy/dev/dlib/dlib/sockets/sockets_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = DCA73D83F4CF4B0591073B6B /* /Users/andy/dev/dlib/dlib/sockets/sockets_kernel_1.cpp */; };
+		CDD1E23C25354F40BC613ABA /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmainct.cpp */ = {isa = PBXBuildFile; fileRef = 8F1EC94FC4D24E579FF0C571 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmainct.cpp */; };
+		CDD585153FAD4B42A191ED46 /* /Users/andy/dev/dlib/dlib/bigint/bigint_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = 2CE8FC0B67454756880BA1C6 /* /Users/andy/dev/dlib/dlib/bigint/bigint_kernel_2.cpp */; };
+		CEF39B22BBFB426FA81DF8B7 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jddctmgr.cpp */ = {isa = PBXBuildFile; fileRef = 8DD1B91460224971A8D07223 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jddctmgr.cpp */; };
+		D2B267E9756944C495629627 /* /Users/andy/dev/dlib/dlib/dnn/tensor_tools.cpp */ = {isa = PBXBuildFile; fileRef = 199038CB4B814F82AE0B2FFB /* /Users/andy/dev/dlib/dlib/dnn/tensor_tools.cpp */; };
+		D2FEB6A48D8A453CAB48FD94 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmaster.cpp */ = {isa = PBXBuildFile; fileRef = D01D113369DC4077B76B5636 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmaster.cpp */; };
+		D309BE1B352149D082AE9C99 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcphuff.cpp */ = {isa = PBXBuildFile; fileRef = F5699EF7174B4B3092CB4BBA /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcphuff.cpp */; };
+		D4317CA84D8A47C2BF93C0CE /* /Users/andy/dev/dlib/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp */ = {isa = PBXBuildFile; fileRef = 2FA0AB5748134EB985C2A204 /* /Users/andy/dev/dlib/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp */; };
+		DF392A303978402C811EA6E8 /* /Users/andy/dev/dlib/dlib/bigint/bigint_kernel_1.cpp */ = {isa = PBXBuildFile; fileRef = 74C154F1D21C41F0A75737D1 /* /Users/andy/dev/dlib/dlib/bigint/bigint_kernel_1.cpp */; };
+		E16A6C3FDF0043B380B76F25 /* /Users/andy/dev/dlib/dlib/timer/timer.cpp */ = {isa = PBXBuildFile; fileRef = 5BD31F39FD9840A8B60962D8 /* /Users/andy/dev/dlib/dlib/timer/timer.cpp */; };
+		E6CFFF7EEC5645769E45FF88 /* /Users/andy/dev/dlib/dlib/sockets/sockets_extensions.cpp */ = {isa = PBXBuildFile; fileRef = F929605EBFBC4A2BBBFAC073 /* /Users/andy/dev/dlib/dlib/sockets/sockets_extensions.cpp */; };
+		E77FD8FB2EBC478483F7EAAB /* /Users/andy/dev/dlib/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp */ = {isa = PBXBuildFile; fileRef = A0F33A9B264E4936834DA0F2 /* /Users/andy/dev/dlib/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp */; };
+		EAC4D9D9D3B0474DA898D8EE /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctflt.cpp */ = {isa = PBXBuildFile; fileRef = 05B78B1FFDC74AFCB4C9B8AF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctflt.cpp */; };
+		ECF539F1DCF64092A97884B6 /* /Users/andy/dev/dlib/dlib/gui_widgets/drawable.cpp */ = {isa = PBXBuildFile; fileRef = B620BDAA195B4B79B0B9D713 /* /Users/andy/dev/dlib/dlib/gui_widgets/drawable.cpp */; };
+		F4C25D5653A2408C9311F14B /* /Users/andy/dev/dlib/dlib/image_loader/jpeg_loader.cpp */ = {isa = PBXBuildFile; fileRef = 9AED18AFE2D4440084BE7D90 /* /Users/andy/dev/dlib/dlib/image_loader/jpeg_loader.cpp */; };
+		F89556750E364125B2520190 /* /Users/andy/dev/dlib/dlib/image_saver/save_png.cpp */ = {isa = PBXBuildFile; fileRef = 23EBDBDBA3364666BA2749FE /* /Users/andy/dev/dlib/dlib/image_saver/save_png.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		718E61A0190B49E29E6E7163 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		995D51D741D645479AC2E88C /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D011B0F7B6A2409397D78E0D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D3C17C71453E4969BF4FA831 = {
+			isa = PBXBuildStyle;
+		};
+		E77F76892D3A4B5BB5CEBD79 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		078AE67A3D314A9AA650A611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DDB587E37F349009D2AD65B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DAD13D8F304C4292958139;
+			remoteInfo = ZERO_CHECK;
+		};
+		07B46D86257B40E1AFD6BBB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DDB587E37F349009D2AD65B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26DAD13D8F304C4292958139;
+			remoteInfo = ZERO_CHECK;
+		};
+		404F5543188444E5A4C7B952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DDB587E37F349009D2AD65B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA239BB1CFCE4608BD77BAD9;
+			remoteInfo = FaceMorph;
+		};
+		87F4F0F016BA45D2ACC625AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DDB587E37F349009D2AD65B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35CECEB6ABE4E8A99C162D3;
+			remoteInfo = dlib;
+		};
+		9092EE06625C4589B30315A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DDB587E37F349009D2AD65B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35CECEB6ABE4E8A99C162D3;
+			remoteInfo = dlib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DE59DDF20E4D21877A47F0 /* /Users/andy/dev/dlib/dlib/server/server_iostream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = server_iostream.cpp; path = ../dlib/dlib/server/server_iostream.cpp; sourceTree = SOURCE_ROOT; };
+		056A5C7AD2D5425F87E6C85E /* /Users/andy/dev/dlib/dlib/sockets/sockets_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sockets_kernel_2.cpp; path = ../dlib/dlib/sockets/sockets_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		056E7C5D2FED42CA86B3D8BB /* /Users/andy/dev/dlib/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entropy_decoder_kernel_1.cpp; path = ../dlib/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		05B78B1FFDC74AFCB4C9B8AF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctflt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jfdctflt.cpp; path = ../dlib/dlib/external/libjpeg/jfdctflt.cpp; sourceTree = SOURCE_ROOT; };
+		0733DF88DB98488F87A2BA3B /* /Users/andy/dev/dlib/dlib/image_loader/png_loader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = png_loader.cpp; path = ../dlib/dlib/image_loader/png_loader.cpp; sourceTree = SOURCE_ROOT; };
+		07A79800210D47BC8B3A52CB /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jfdctint.cpp; path = ../dlib/dlib/external/libjpeg/jfdctint.cpp; sourceTree = SOURCE_ROOT; };
+		08C8F31BCF34492BA2584100 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdapistd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdapistd.cpp; path = ../dlib/dlib/external/libjpeg/jdapistd.cpp; sourceTree = SOURCE_ROOT; };
+		0B865C799A0E4337BFB90AFE /* /Users/andy/dev/dlib/dlib/gui_widgets/canvas_drawing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = canvas_drawing.cpp; path = ../dlib/dlib/gui_widgets/canvas_drawing.cpp; sourceTree = SOURCE_ROOT; };
+		0C227C09E1184007ABDC71EA /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcinit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcinit.cpp; path = ../dlib/dlib/external/libjpeg/jcinit.cpp; sourceTree = SOURCE_ROOT; };
+		0F2B761FA02E43438F95B065 /* /Users/andy/dev/facemorph/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		12B78A7CF5D24E4B9F92D76A /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctflt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jidctflt.cpp; path = ../dlib/dlib/external/libjpeg/jidctflt.cpp; sourceTree = SOURCE_ROOT; };
+		199038CB4B814F82AE0B2FFB /* /Users/andy/dev/dlib/dlib/dnn/tensor_tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tensor_tools.cpp; path = ../dlib/dlib/dnn/tensor_tools.cpp; sourceTree = SOURCE_ROOT; };
+		1A0D6FD7D4464CFC8212B7FF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdphuff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdphuff.cpp; path = ../dlib/dlib/external/libjpeg/jdphuff.cpp; sourceTree = SOURCE_ROOT; };
+		1D4F8E315DCC43919356E93E /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdhuff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdhuff.cpp; path = ../dlib/dlib/external/libjpeg/jdhuff.cpp; sourceTree = SOURCE_ROOT; };
+		1DAA1112C0B94B4ABD0233D0 /* /Users/andy/dev/dlib/dlib/server/server_http.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = server_http.cpp; path = ../dlib/dlib/server/server_http.cpp; sourceTree = SOURCE_ROOT; };
+		1FD8690C8C8F4689B2AA13FB /* /Users/andy/dev/dlib/dlib/gui_widgets/base_widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base_widgets.cpp; path = ../dlib/dlib/gui_widgets/base_widgets.cpp; sourceTree = SOURCE_ROOT; };
+		23EBDBDBA3364666BA2749FE /* /Users/andy/dev/dlib/dlib/image_saver/save_png.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = save_png.cpp; path = ../dlib/dlib/image_saver/save_png.cpp; sourceTree = SOURCE_ROOT; };
+		252BE1BB2F1E40AF9D461AC9 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcapistd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcapistd.cpp; path = ../dlib/dlib/external/libjpeg/jcapistd.cpp; sourceTree = SOURCE_ROOT; };
+		2BEA73CFFE8C4F359FDFD6C6 /* /Users/andy/dev/dlib/dlib/data_io/mnist.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mnist.cpp; path = ../dlib/dlib/data_io/mnist.cpp; sourceTree = SOURCE_ROOT; };
+		2C875CFC92ED4AFDA9243CD6 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdinput.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdinput.cpp; path = ../dlib/dlib/external/libjpeg/jdinput.cpp; sourceTree = SOURCE_ROOT; };
+		2CE8FC0B67454756880BA1C6 /* /Users/andy/dev/dlib/dlib/bigint/bigint_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bigint_kernel_2.cpp; path = ../dlib/dlib/bigint/bigint_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		2FA0AB5748134EB985C2A204 /* /Users/andy/dev/dlib/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sockstreambuf_unbuffered.cpp; path = ../dlib/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp; sourceTree = SOURCE_ROOT; };
+		38EF5BDEA6414F368ABDE5EC /* /Users/andy/dev/dlib/dlib/external/libjpeg/jquant1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jquant1.cpp; path = ../dlib/dlib/external/libjpeg/jquant1.cpp; sourceTree = SOURCE_ROOT; };
+		399E24C6FD734238A43E03F3 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdatadst.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdatadst.cpp; path = ../dlib/dlib/external/libjpeg/jdatadst.cpp; sourceTree = SOURCE_ROOT; };
+		3BE1C217952A4C69BDAAB6D4 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcapimin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcapimin.cpp; path = ../dlib/dlib/external/libjpeg/jcapimin.cpp; sourceTree = SOURCE_ROOT; };
+		410E6CD668164EC3B74B0AF2 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jmemmgr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jmemmgr.cpp; path = ../dlib/dlib/external/libjpeg/jmemmgr.cpp; sourceTree = SOURCE_ROOT; };
+		483AC1F97D8A4681A33005EC /* /Users/andy/dev/dlib/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entropy_decoder_kernel_2.cpp; path = ../dlib/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		4AB1D631A5BF4C2D8EABF041 /* /Users/andy/dev/dlib/dlib/data_io/image_dataset_metadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = image_dataset_metadata.cpp; path = ../dlib/dlib/data_io/image_dataset_metadata.cpp; sourceTree = SOURCE_ROOT; };
+		4CFCA967DE7147F1ADDAB896 /* /Users/andy/dev/facemorph/FaceMorph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FaceMorph.cpp; path = FaceMorph.cpp; sourceTree = SOURCE_ROOT; };
+		4DD4313A318340E3AF5EA7BE /* FaceMorph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = FaceMorph; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEDBA134DEF4FB789CFD7A4 /* /Users/andy/dev/dlib/dlib/gui_widgets/widgets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = widgets.cpp; path = ../dlib/dlib/gui_widgets/widgets.cpp; sourceTree = SOURCE_ROOT; };
+		599ADEC14DD24CF7AE4A654C /* /Users/andy/dev/dlib/dlib/image_saver/save_jpeg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = save_jpeg.cpp; path = ../dlib/dlib/image_saver/save_jpeg.cpp; sourceTree = SOURCE_ROOT; };
+		5ADEF18CB5FD4717AD3F99C5 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdapimin.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdapimin.cpp; path = ../dlib/dlib/external/libjpeg/jdapimin.cpp; sourceTree = SOURCE_ROOT; };
+		5BD31F39FD9840A8B60962D8 /* /Users/andy/dev/dlib/dlib/timer/timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timer.cpp; path = ../dlib/dlib/timer/timer.cpp; sourceTree = SOURCE_ROOT; };
+		5D7D6DC0BFE2453FA07DC347 /* /Users/andy/dev/dlib/dlib/gui_core/gui_core_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gui_core_kernel_2.cpp; path = ../dlib/dlib/gui_core/gui_core_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		67BDDC58B3C54164BE7AF8D6 /* /Users/andy/dev/dlib/dlib/base64/base64_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base64_kernel_1.cpp; path = ../dlib/dlib/base64/base64_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		6A816C8B71084B7AA5DEDCC0 /* /Users/andy/dev/dlib/dlib/misc_api/misc_api_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = misc_api_kernel_2.cpp; path = ../dlib/dlib/misc_api/misc_api_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		6C3973D66925438090E93A18 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcdctmgr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcdctmgr.cpp; path = ../dlib/dlib/external/libjpeg/jcdctmgr.cpp; sourceTree = SOURCE_ROOT; };
+		73FE5A609488431AA3E9C9F5 /* /Users/andy/dev/dlib/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entropy_encoder_kernel_1.cpp; path = ../dlib/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		74C154F1D21C41F0A75737D1 /* /Users/andy/dev/dlib/dlib/bigint/bigint_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bigint_kernel_1.cpp; path = ../dlib/dlib/bigint/bigint_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		75FF98F663084D9B9D16B061 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdcolor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdcolor.cpp; path = ../dlib/dlib/external/libjpeg/jdcolor.cpp; sourceTree = SOURCE_ROOT; };
+		77EC97A8D0CA494A85CF7C36 /* /Users/andy/dev/dlib/dlib/gui_widgets/style.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = style.cpp; path = ../dlib/dlib/gui_widgets/style.cpp; sourceTree = SOURCE_ROOT; };
+		782FCD724FA149BA8F7B25BD /* /Users/andy/dev/dlib/dlib/logger/logger_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logger_kernel_1.cpp; path = ../dlib/dlib/logger/logger_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		795E2F67B2A34B0793968248 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmainct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcmainct.cpp; path = ../dlib/dlib/external/libjpeg/jcmainct.cpp; sourceTree = SOURCE_ROOT; };
+		7D282B241C2A4FEE9F98A46C /* /Users/andy/dev/facemorph/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7DC51AB4211C41BA8DC0ED03 /* /Users/andy/dev/dlib/dlib/sockstreambuf/sockstreambuf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sockstreambuf.cpp; path = ../dlib/dlib/sockstreambuf/sockstreambuf.cpp; sourceTree = SOURCE_ROOT; };
+		86370CF5037A420499FE9292 /* /Users/andy/dev/dlib/dlib/linker/linker_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = linker_kernel_1.cpp; path = ../dlib/dlib/linker/linker_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		87FB330EE21D4D24B6526D02 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jccolor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jccolor.cpp; path = ../dlib/dlib/external/libjpeg/jccolor.cpp; sourceTree = SOURCE_ROOT; };
+		8D7463BB0BA447B6B1DBEA15 /* /Users/andy/dev/dlib/dlib/gui_widgets/fonts.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fonts.cpp; path = ../dlib/dlib/gui_widgets/fonts.cpp; sourceTree = SOURCE_ROOT; };
+		8DD1B91460224971A8D07223 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jddctmgr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jddctmgr.cpp; path = ../dlib/dlib/external/libjpeg/jddctmgr.cpp; sourceTree = SOURCE_ROOT; };
+		8F1EC94FC4D24E579FF0C571 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmainct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdmainct.cpp; path = ../dlib/dlib/external/libjpeg/jdmainct.cpp; sourceTree = SOURCE_ROOT; };
+		8F79878BE066426A918D05A3 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jmemnobs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jmemnobs.cpp; path = ../dlib/dlib/external/libjpeg/jmemnobs.cpp; sourceTree = SOURCE_ROOT; };
+		90AA3178CCF7470D9588FF9D /* /Users/andy/dev/dlib/dlib/tokenizer/tokenizer_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tokenizer_kernel_1.cpp; path = ../dlib/dlib/tokenizer/tokenizer_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		9201CBAD32A7470C92DDD528 /* /Users/andy/dev/dlib/dlib/gui_core/gui_core_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gui_core_kernel_1.cpp; path = ../dlib/dlib/gui_core/gui_core_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		9597736FF7BB47E799763F67 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmerge.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdmerge.cpp; path = ../dlib/dlib/external/libjpeg/jdmerge.cpp; sourceTree = SOURCE_ROOT; };
+		95C9D0FF449A41FC9DF4C5B2 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdcoefct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdcoefct.cpp; path = ../dlib/dlib/external/libjpeg/jdcoefct.cpp; sourceTree = SOURCE_ROOT; };
+		991F89E03BCE4E59B5BAA388 /* /Users/andy/dev/dlib/dlib/misc_api/misc_api_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = misc_api_kernel_1.cpp; path = ../dlib/dlib/misc_api/misc_api_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		9AED18AFE2D4440084BE7D90 /* /Users/andy/dev/dlib/dlib/image_loader/jpeg_loader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jpeg_loader.cpp; path = ../dlib/dlib/image_loader/jpeg_loader.cpp; sourceTree = SOURCE_ROOT; };
+		9FF8C706AFA9440390A7F1EB /* /Users/andy/dev/dlib/dlib/server/server_kernel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = server_kernel.cpp; path = ../dlib/dlib/server/server_kernel.cpp; sourceTree = SOURCE_ROOT; };
+		A0F33A9B264E4936834DA0F2 /* /Users/andy/dev/dlib/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entropy_encoder_kernel_2.cpp; path = ../dlib/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		A538F1966D8E4099B7DCC985 /* /Users/andy/dev/dlib/dlib/threads/threaded_object_extension.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threaded_object_extension.cpp; path = ../dlib/dlib/threads/threaded_object_extension.cpp; sourceTree = SOURCE_ROOT; };
+		AB334B115BB1426296914035 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmaster.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdmaster.cpp; path = ../dlib/dlib/external/libjpeg/jdmaster.cpp; sourceTree = SOURCE_ROOT; };
+		AC2821652E18476189563ECD /* dlib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libdlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5764573C584FFAAF1AC05F /* /Users/andy/dev/dlib/dlib/bit_stream/bit_stream_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bit_stream_kernel_1.cpp; path = ../dlib/dlib/bit_stream/bit_stream_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		B2EDA7DE1E644BD08515D574 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdpostct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdpostct.cpp; path = ../dlib/dlib/external/libjpeg/jdpostct.cpp; sourceTree = SOURCE_ROOT; };
+		B620BDAA195B4B79B0B9D713 /* /Users/andy/dev/dlib/dlib/gui_widgets/drawable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = drawable.cpp; path = ../dlib/dlib/gui_widgets/drawable.cpp; sourceTree = SOURCE_ROOT; };
+		B7C15BDB8BF943A7BC0DBA9F /* /Users/andy/dev/dlib/dlib/dnn/cpu_dlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cpu_dlib.cpp; path = ../dlib/dlib/dnn/cpu_dlib.cpp; sourceTree = SOURCE_ROOT; };
+		B90F0FBF975147E7AF511C20 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdatasrc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdatasrc.cpp; path = ../dlib/dlib/external/libjpeg/jdatasrc.cpp; sourceTree = SOURCE_ROOT; };
+		B94479FDCE8F44308D9DD298 /* /Users/andy/dev/dlib/dlib/stack_trace.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stack_trace.cpp; path = ../dlib/dlib/stack_trace.cpp; sourceTree = SOURCE_ROOT; };
+		B9AAC75D5FEC40C58EE0E4EF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jchuff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jchuff.cpp; path = ../dlib/dlib/external/libjpeg/jchuff.cpp; sourceTree = SOURCE_ROOT; };
+		BAEAEC8D56604E07BAB79C8B /* /Users/andy/dev/dlib/dlib/threads/multithreaded_object_extension.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = multithreaded_object_extension.cpp; path = ../dlib/dlib/threads/multithreaded_object_extension.cpp; sourceTree = SOURCE_ROOT; };
+		BCD1E3F1AA0C409A885A6C72 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jccoefct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jccoefct.cpp; path = ../dlib/dlib/external/libjpeg/jccoefct.cpp; sourceTree = SOURCE_ROOT; };
+		BF17111F4BE64CEEA6AAEC2E /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dir_nav_kernel_1.cpp; path = ../dlib/dlib/dir_nav/dir_nav_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		BFA872875DF94A7696826D85 /* /Users/andy/dev/dlib/dlib/threads/thread_pool_extension.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = thread_pool_extension.cpp; path = ../dlib/dlib/threads/thread_pool_extension.cpp; sourceTree = SOURCE_ROOT; };
+		C06FB183A6CC4CD4BCE01DEB /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcparam.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcparam.cpp; path = ../dlib/dlib/external/libjpeg/jcparam.cpp; sourceTree = SOURCE_ROOT; };
+		C15CD5EBB9DD4601AD846ECC /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_shared.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threads_kernel_shared.cpp; path = ../dlib/dlib/threads/threads_kernel_shared.cpp; sourceTree = SOURCE_ROOT; };
+		C24FCC434CFC4BB98BCDBCAC /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_extensions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dir_nav_extensions.cpp; path = ../dlib/dlib/dir_nav/dir_nav_extensions.cpp; sourceTree = SOURCE_ROOT; };
+		C34599C6F5564D5788F9F16E /* /Users/andy/dev/dlib/dlib/logger/extra_logger_headers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = extra_logger_headers.cpp; path = ../dlib/dlib/logger/extra_logger_headers.cpp; sourceTree = SOURCE_ROOT; };
+		C3C878F285F0477F847B36C9 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcsample.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcsample.cpp; path = ../dlib/dlib/external/libjpeg/jcsample.cpp; sourceTree = SOURCE_ROOT; };
+		C5AE1E389386449393DB5C46 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcomapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcomapi.cpp; path = ../dlib/dlib/external/libjpeg/jcomapi.cpp; sourceTree = SOURCE_ROOT; };
+		C72FC304817242B0ACE8AE05 /* /Users/andy/dev/facemorph/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C73D05FF55A0471E8868CA50 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmarker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdmarker.cpp; path = ../dlib/dlib/external/libjpeg/jdmarker.cpp; sourceTree = SOURCE_ROOT; };
+		CAB318B489CC451284172F27 /* /Users/andy/dev/dlib/dlib/threads/async.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = async.cpp; path = ../dlib/dlib/threads/async.cpp; sourceTree = SOURCE_ROOT; };
+		CB812739507249E193291D87 /* /Users/andy/dev/dlib/dlib/unicode/unicode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unicode.cpp; path = ../dlib/dlib/unicode/unicode.cpp; sourceTree = SOURCE_ROOT; };
+		CC325BA8B984416E8A4CDC3D /* /Users/andy/dev/dlib/dlib/external/libjpeg/jerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jerror.cpp; path = ../dlib/dlib/external/libjpeg/jerror.cpp; sourceTree = SOURCE_ROOT; };
+		D01D113369DC4077B76B5636 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmaster.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcmaster.cpp; path = ../dlib/dlib/external/libjpeg/jcmaster.cpp; sourceTree = SOURCE_ROOT; };
+		D110E9E272CB401C853E6786 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctred.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jidctred.cpp; path = ../dlib/dlib/external/libjpeg/jidctred.cpp; sourceTree = SOURCE_ROOT; };
+		D956E0D4D0DE439C8A19FDC9 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdsample.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jdsample.cpp; path = ../dlib/dlib/external/libjpeg/jdsample.cpp; sourceTree = SOURCE_ROOT; };
+		DB55679569E346ECAD89BE89 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jutils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jutils.cpp; path = ../dlib/dlib/external/libjpeg/jutils.cpp; sourceTree = SOURCE_ROOT; };
+		DCA73D83F4CF4B0591073B6B /* /Users/andy/dev/dlib/dlib/sockets/sockets_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sockets_kernel_1.cpp; path = ../dlib/dlib/sockets/sockets_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		E12BF70CA9C74B73A48FA57E /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threads_kernel_1.cpp; path = ../dlib/dlib/threads/threads_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		E6047D6C88D8480D8785A5D7 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jquant2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jquant2.cpp; path = ../dlib/dlib/external/libjpeg/jquant2.cpp; sourceTree = SOURCE_ROOT; };
+		E64799C95C594E11BA931B96 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcprepct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcprepct.cpp; path = ../dlib/dlib/external/libjpeg/jcprepct.cpp; sourceTree = SOURCE_ROOT; };
+		E9B2A5EAD3E24F73BA1585D0 /* /Users/andy/dev/dlib/dlib/bsp/bsp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bsp.cpp; path = ../dlib/dlib/bsp/bsp.cpp; sourceTree = SOURCE_ROOT; };
+		EA481B2DD8AC421DB558A946 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmarker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcmarker.cpp; path = ../dlib/dlib/external/libjpeg/jcmarker.cpp; sourceTree = SOURCE_ROOT; };
+		EBA294BC54714380A2591F10 /* /Users/andy/dev/dlib/dlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ../dlib/dlib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EE27DE1310B54FE1BF10A70B /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jidctint.cpp; path = ../dlib/dlib/external/libjpeg/jidctint.cpp; sourceTree = SOURCE_ROOT; };
+		F5699EF7174B4B3092CB4BBA /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcphuff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jcphuff.cpp; path = ../dlib/dlib/external/libjpeg/jcphuff.cpp; sourceTree = SOURCE_ROOT; };
+		F5A86E18EE184E029A889995 /* /Users/andy/dev/dlib/dlib/md5/md5_kernel_1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = md5_kernel_1.cpp; path = ../dlib/dlib/md5/md5_kernel_1.cpp; sourceTree = SOURCE_ROOT; };
+		F62B747567AA497597B6421B /* /Users/andy/dev/dlib/dlib/logger/logger_config_file.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logger_config_file.cpp; path = ../dlib/dlib/logger/logger_config_file.cpp; sourceTree = SOURCE_ROOT; };
+		F929605EBFBC4A2BBBFAC073 /* /Users/andy/dev/dlib/dlib/sockets/sockets_extensions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sockets_extensions.cpp; path = ../dlib/dlib/sockets/sockets_extensions.cpp; sourceTree = SOURCE_ROOT; };
+		FD409838FEA34EF5BDD9BEE6 /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dir_nav_kernel_2.cpp; path = ../dlib/dlib/dir_nav/dir_nav_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+		FE3066514D944E28AC72D3CF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctfst.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jfdctfst.cpp; path = ../dlib/dlib/external/libjpeg/jfdctfst.cpp; sourceTree = SOURCE_ROOT; };
+		FF67AB60662D4D799FD7E3BF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctfst.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jidctfst.cpp; path = ../dlib/dlib/external/libjpeg/jidctfst.cpp; sourceTree = SOURCE_ROOT; };
+		FF9A2B4534294734BE9CA3E1 /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threads_kernel_2.cpp; path = ../dlib/dlib/threads/threads_kernel_2.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08B7C3F50E204143A49AC18C /* dlib */ = {
+			isa = PBXGroup;
+			children = (
+				6DF09623D1E74B4CA8F61A8A /* Source Files */,
+				EBA294BC54714380A2591F10 /* /Users/andy/dev/dlib/dlib/CMakeLists.txt */,
+			);
+			name = dlib;
+			sourceTree = "<group>";
+		};
+		1D0E9B90B24345119DD7E4A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD4313A318340E3AF5EA7BE /* FaceMorph */,
+				AC2821652E18476189563ECD /* dlib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2458C0A3D9B94EE58A985146 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				496D012C1A354E17A78F48E1 /* FaceMorph */,
+				646D9BFBE17749B38C1B372B /* ALL_BUILD */,
+				E69CB951060B4678AF65E41E /* ZERO_CHECK */,
+				08B7C3F50E204143A49AC18C /* dlib */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		3D6DD29F179940FC8C1C5A45 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		496D012C1A354E17A78F48E1 /* FaceMorph */ = {
+			isa = PBXGroup;
+			children = (
+				F6C929EE16024EE7A9595FD2 /* Source Files */,
+				C72FC304817242B0ACE8AE05 /* /Users/andy/dev/facemorph/CMakeLists.txt */,
+			);
+			name = FaceMorph;
+			sourceTree = "<group>";
+		};
+		534442A9B9AF4D99A8FD6248 = {
+			isa = PBXGroup;
+			children = (
+				2458C0A3D9B94EE58A985146 /* Sources */,
+				6EC1B7B4AAAA45849903375B /* Resources */,
+				1D0E9B90B24345119DD7E4A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		646D9BFBE17749B38C1B372B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				AAC0B9987BB441B5B9E9D5F2 /* CMake Rules */,
+				0F2B761FA02E43438F95B065 /* /Users/andy/dev/facemorph/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6DF09623D1E74B4CA8F61A8A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				67BDDC58B3C54164BE7AF8D6 /* /Users/andy/dev/dlib/dlib/base64/base64_kernel_1.cpp */,
+				74C154F1D21C41F0A75737D1 /* /Users/andy/dev/dlib/dlib/bigint/bigint_kernel_1.cpp */,
+				2CE8FC0B67454756880BA1C6 /* /Users/andy/dev/dlib/dlib/bigint/bigint_kernel_2.cpp */,
+				AC5764573C584FFAAF1AC05F /* /Users/andy/dev/dlib/dlib/bit_stream/bit_stream_kernel_1.cpp */,
+				E9B2A5EAD3E24F73BA1585D0 /* /Users/andy/dev/dlib/dlib/bsp/bsp.cpp */,
+				4AB1D631A5BF4C2D8EABF041 /* /Users/andy/dev/dlib/dlib/data_io/image_dataset_metadata.cpp */,
+				2BEA73CFFE8C4F359FDFD6C6 /* /Users/andy/dev/dlib/dlib/data_io/mnist.cpp */,
+				C24FCC434CFC4BB98BCDBCAC /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_extensions.cpp */,
+				BF17111F4BE64CEEA6AAEC2E /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_kernel_1.cpp */,
+				FD409838FEA34EF5BDD9BEE6 /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_kernel_2.cpp */,
+				B7C15BDB8BF943A7BC0DBA9F /* /Users/andy/dev/dlib/dlib/dnn/cpu_dlib.cpp */,
+				199038CB4B814F82AE0B2FFB /* /Users/andy/dev/dlib/dlib/dnn/tensor_tools.cpp */,
+				056E7C5D2FED42CA86B3D8BB /* /Users/andy/dev/dlib/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp */,
+				483AC1F97D8A4681A33005EC /* /Users/andy/dev/dlib/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp */,
+				73FE5A609488431AA3E9C9F5 /* /Users/andy/dev/dlib/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp */,
+				A0F33A9B264E4936834DA0F2 /* /Users/andy/dev/dlib/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp */,
+				3BE1C217952A4C69BDAAB6D4 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcapimin.cpp */,
+				252BE1BB2F1E40AF9D461AC9 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcapistd.cpp */,
+				BCD1E3F1AA0C409A885A6C72 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jccoefct.cpp */,
+				87FB330EE21D4D24B6526D02 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jccolor.cpp */,
+				6C3973D66925438090E93A18 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcdctmgr.cpp */,
+				B9AAC75D5FEC40C58EE0E4EF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jchuff.cpp */,
+				0C227C09E1184007ABDC71EA /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcinit.cpp */,
+				795E2F67B2A34B0793968248 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmainct.cpp */,
+				EA481B2DD8AC421DB558A946 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmarker.cpp */,
+				D01D113369DC4077B76B5636 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmaster.cpp */,
+				C5AE1E389386449393DB5C46 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcomapi.cpp */,
+				C06FB183A6CC4CD4BCE01DEB /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcparam.cpp */,
+				F5699EF7174B4B3092CB4BBA /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcphuff.cpp */,
+				E64799C95C594E11BA931B96 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcprepct.cpp */,
+				C3C878F285F0477F847B36C9 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcsample.cpp */,
+				5ADEF18CB5FD4717AD3F99C5 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdapimin.cpp */,
+				08C8F31BCF34492BA2584100 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdapistd.cpp */,
+				399E24C6FD734238A43E03F3 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdatadst.cpp */,
+				B90F0FBF975147E7AF511C20 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdatasrc.cpp */,
+				95C9D0FF449A41FC9DF4C5B2 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdcoefct.cpp */,
+				75FF98F663084D9B9D16B061 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdcolor.cpp */,
+				8DD1B91460224971A8D07223 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jddctmgr.cpp */,
+				1D4F8E315DCC43919356E93E /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdhuff.cpp */,
+				2C875CFC92ED4AFDA9243CD6 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdinput.cpp */,
+				8F1EC94FC4D24E579FF0C571 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmainct.cpp */,
+				C73D05FF55A0471E8868CA50 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmarker.cpp */,
+				AB334B115BB1426296914035 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmaster.cpp */,
+				9597736FF7BB47E799763F67 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmerge.cpp */,
+				1A0D6FD7D4464CFC8212B7FF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdphuff.cpp */,
+				B2EDA7DE1E644BD08515D574 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdpostct.cpp */,
+				D956E0D4D0DE439C8A19FDC9 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdsample.cpp */,
+				CC325BA8B984416E8A4CDC3D /* /Users/andy/dev/dlib/dlib/external/libjpeg/jerror.cpp */,
+				05B78B1FFDC74AFCB4C9B8AF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctflt.cpp */,
+				FE3066514D944E28AC72D3CF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctfst.cpp */,
+				07A79800210D47BC8B3A52CB /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctint.cpp */,
+				12B78A7CF5D24E4B9F92D76A /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctflt.cpp */,
+				FF67AB60662D4D799FD7E3BF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctfst.cpp */,
+				EE27DE1310B54FE1BF10A70B /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctint.cpp */,
+				D110E9E272CB401C853E6786 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctred.cpp */,
+				410E6CD668164EC3B74B0AF2 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jmemmgr.cpp */,
+				8F79878BE066426A918D05A3 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jmemnobs.cpp */,
+				38EF5BDEA6414F368ABDE5EC /* /Users/andy/dev/dlib/dlib/external/libjpeg/jquant1.cpp */,
+				E6047D6C88D8480D8785A5D7 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jquant2.cpp */,
+				DB55679569E346ECAD89BE89 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jutils.cpp */,
+				9201CBAD32A7470C92DDD528 /* /Users/andy/dev/dlib/dlib/gui_core/gui_core_kernel_1.cpp */,
+				5D7D6DC0BFE2453FA07DC347 /* /Users/andy/dev/dlib/dlib/gui_core/gui_core_kernel_2.cpp */,
+				1FD8690C8C8F4689B2AA13FB /* /Users/andy/dev/dlib/dlib/gui_widgets/base_widgets.cpp */,
+				0B865C799A0E4337BFB90AFE /* /Users/andy/dev/dlib/dlib/gui_widgets/canvas_drawing.cpp */,
+				B620BDAA195B4B79B0B9D713 /* /Users/andy/dev/dlib/dlib/gui_widgets/drawable.cpp */,
+				8D7463BB0BA447B6B1DBEA15 /* /Users/andy/dev/dlib/dlib/gui_widgets/fonts.cpp */,
+				77EC97A8D0CA494A85CF7C36 /* /Users/andy/dev/dlib/dlib/gui_widgets/style.cpp */,
+				4EEDBA134DEF4FB789CFD7A4 /* /Users/andy/dev/dlib/dlib/gui_widgets/widgets.cpp */,
+				9AED18AFE2D4440084BE7D90 /* /Users/andy/dev/dlib/dlib/image_loader/jpeg_loader.cpp */,
+				0733DF88DB98488F87A2BA3B /* /Users/andy/dev/dlib/dlib/image_loader/png_loader.cpp */,
+				599ADEC14DD24CF7AE4A654C /* /Users/andy/dev/dlib/dlib/image_saver/save_jpeg.cpp */,
+				23EBDBDBA3364666BA2749FE /* /Users/andy/dev/dlib/dlib/image_saver/save_png.cpp */,
+				86370CF5037A420499FE9292 /* /Users/andy/dev/dlib/dlib/linker/linker_kernel_1.cpp */,
+				C34599C6F5564D5788F9F16E /* /Users/andy/dev/dlib/dlib/logger/extra_logger_headers.cpp */,
+				F62B747567AA497597B6421B /* /Users/andy/dev/dlib/dlib/logger/logger_config_file.cpp */,
+				782FCD724FA149BA8F7B25BD /* /Users/andy/dev/dlib/dlib/logger/logger_kernel_1.cpp */,
+				F5A86E18EE184E029A889995 /* /Users/andy/dev/dlib/dlib/md5/md5_kernel_1.cpp */,
+				991F89E03BCE4E59B5BAA388 /* /Users/andy/dev/dlib/dlib/misc_api/misc_api_kernel_1.cpp */,
+				6A816C8B71084B7AA5DEDCC0 /* /Users/andy/dev/dlib/dlib/misc_api/misc_api_kernel_2.cpp */,
+				1DAA1112C0B94B4ABD0233D0 /* /Users/andy/dev/dlib/dlib/server/server_http.cpp */,
+				03DE59DDF20E4D21877A47F0 /* /Users/andy/dev/dlib/dlib/server/server_iostream.cpp */,
+				9FF8C706AFA9440390A7F1EB /* /Users/andy/dev/dlib/dlib/server/server_kernel.cpp */,
+				F929605EBFBC4A2BBBFAC073 /* /Users/andy/dev/dlib/dlib/sockets/sockets_extensions.cpp */,
+				DCA73D83F4CF4B0591073B6B /* /Users/andy/dev/dlib/dlib/sockets/sockets_kernel_1.cpp */,
+				056A5C7AD2D5425F87E6C85E /* /Users/andy/dev/dlib/dlib/sockets/sockets_kernel_2.cpp */,
+				7DC51AB4211C41BA8DC0ED03 /* /Users/andy/dev/dlib/dlib/sockstreambuf/sockstreambuf.cpp */,
+				2FA0AB5748134EB985C2A204 /* /Users/andy/dev/dlib/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp */,
+				B94479FDCE8F44308D9DD298 /* /Users/andy/dev/dlib/dlib/stack_trace.cpp */,
+				CAB318B489CC451284172F27 /* /Users/andy/dev/dlib/dlib/threads/async.cpp */,
+				BAEAEC8D56604E07BAB79C8B /* /Users/andy/dev/dlib/dlib/threads/multithreaded_object_extension.cpp */,
+				BFA872875DF94A7696826D85 /* /Users/andy/dev/dlib/dlib/threads/thread_pool_extension.cpp */,
+				A538F1966D8E4099B7DCC985 /* /Users/andy/dev/dlib/dlib/threads/threaded_object_extension.cpp */,
+				E12BF70CA9C74B73A48FA57E /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_1.cpp */,
+				FF9A2B4534294734BE9CA3E1 /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_2.cpp */,
+				C15CD5EBB9DD4601AD846ECC /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_shared.cpp */,
+				5BD31F39FD9840A8B60962D8 /* /Users/andy/dev/dlib/dlib/timer/timer.cpp */,
+				90AA3178CCF7470D9588FF9D /* /Users/andy/dev/dlib/dlib/tokenizer/tokenizer_kernel_1.cpp */,
+				CB812739507249E193291D87 /* /Users/andy/dev/dlib/dlib/unicode/unicode.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6EC1B7B4AAAA45849903375B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AAC0B9987BB441B5B9E9D5F2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E69CB951060B4678AF65E41E /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				3D6DD29F179940FC8C1C5A45 /* CMake Rules */,
+				7D282B241C2A4FEE9F98A46C /* /Users/andy/dev/facemorph/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		F6C929EE16024EE7A9595FD2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CFCA967DE7147F1ADDAB896 /* /Users/andy/dev/facemorph/FaceMorph.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B35CECEB6ABE4E8A99C162D3 /* dlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8B18B2D1CF4A06880F6839 /* Build configuration list for PBXNativeTarget "dlib" */;
+			buildPhases = (
+				A4F29F0109364E15826645FC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dlib;
+			productName = dlib;
+			productReference = AC2821652E18476189563ECD /* dlib */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA239BB1CFCE4608BD77BAD9 /* FaceMorph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F719FC9BBC624C05976DEF0D /* Build configuration list for PBXNativeTarget "FaceMorph" */;
+			buildPhases = (
+				8E0A89AE871F4384993378F8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9A2FE65FBDF4AD5A60161D3 /* PBXTargetDependency */,
+				6530279E92474CFDB5003DFD /* PBXTargetDependency */,
+			);
+			name = FaceMorph;
+			productName = FaceMorph;
+			productReference = 4DD4313A318340E3AF5EA7BE /* FaceMorph */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DDB587E37F349009D2AD65B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0830;
+			};
+			buildConfigurationList = BF2205BA9A2B44E9BE01CE53 /* Build configuration list for PBXProject "FaceMorph" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D011B0F7B6A2409397D78E0D /* Debug */,
+				718E61A0190B49E29E6E7163 /* Release */,
+				995D51D741D645479AC2E88C /* MinSizeRel */,
+				E77F76892D3A4B5BB5CEBD79 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 534442A9B9AF4D99A8FD6248;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				0793548085F14F44837F61B4 /* ALL_BUILD */,
+				BA239BB1CFCE4608BD77BAD9 /* FaceMorph */,
+				26DAD13D8F304C4292958139 /* ZERO_CHECK */,
+				B35CECEB6ABE4E8A99C162D3 /* dlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14EEED11804A42EE92AD36D1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		21973FE26B1E4CDB96D675C9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/andy/dev/facemorph -f /Users/andy/dev/facemorph/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		321E6AC1CD09484E88EB0901 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/andy/dev/facemorph -f /Users/andy/dev/facemorph/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		FD975419CDE6497F851E9EE0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E0A89AE871F4384993378F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01455F7A57174CAF896BACC1 /* /Users/andy/dev/facemorph/FaceMorph.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F29F0109364E15826645FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C50F4C94E4741B7B4107067 /* /Users/andy/dev/dlib/dlib/base64/base64_kernel_1.cpp */,
+				DF392A303978402C811EA6E8 /* /Users/andy/dev/dlib/dlib/bigint/bigint_kernel_1.cpp */,
+				CDD585153FAD4B42A191ED46 /* /Users/andy/dev/dlib/dlib/bigint/bigint_kernel_2.cpp */,
+				A280BD0455E9481B9C2561EE /* /Users/andy/dev/dlib/dlib/bit_stream/bit_stream_kernel_1.cpp */,
+				4FECB469F304484C9622E53D /* /Users/andy/dev/dlib/dlib/bsp/bsp.cpp */,
+				8EBAB72D5F924A3E963CD588 /* /Users/andy/dev/dlib/dlib/data_io/image_dataset_metadata.cpp */,
+				0BF49AEA86A84AA5ACB554FD /* /Users/andy/dev/dlib/dlib/data_io/mnist.cpp */,
+				B596827996454B0A86340805 /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_extensions.cpp */,
+				2F836A89648D480A961E8193 /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_kernel_1.cpp */,
+				5D08F4CEE5534E8C984FBEB0 /* /Users/andy/dev/dlib/dlib/dir_nav/dir_nav_kernel_2.cpp */,
+				8EBBD25A5733459F859C033E /* /Users/andy/dev/dlib/dlib/dnn/cpu_dlib.cpp */,
+				D2B267E9756944C495629627 /* /Users/andy/dev/dlib/dlib/dnn/tensor_tools.cpp */,
+				269BD0B23BF44CE1957C0CE8 /* /Users/andy/dev/dlib/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp */,
+				463D52A911C34DA8B4800739 /* /Users/andy/dev/dlib/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp */,
+				3F8BF5D9433D4573A5E562D1 /* /Users/andy/dev/dlib/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp */,
+				E77FD8FB2EBC478483F7EAAB /* /Users/andy/dev/dlib/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp */,
+				9A9E087AD8CB49D0AFAD2671 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcapimin.cpp */,
+				30B07482BFC246D3A388D424 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcapistd.cpp */,
+				7B05EC9E93CB4118B0F12748 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jccoefct.cpp */,
+				66C0C697683E42B081BB0134 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jccolor.cpp */,
+				C7511C7DB9724F1FBEAA56C3 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcdctmgr.cpp */,
+				B253CA770A0C4D55AC4D4C68 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jchuff.cpp */,
+				410E7D2CDB7E4299B668CB83 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcinit.cpp */,
+				6515F8C1EFAF4AF8A9D183F8 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmainct.cpp */,
+				6EA6F1D5CCE349828D4E8ED6 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmarker.cpp */,
+				D2FEB6A48D8A453CAB48FD94 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcmaster.cpp */,
+				BFA4E4A0D87347FEB4A7D074 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcomapi.cpp */,
+				8A78BFD3D0F8493E9FBFA235 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcparam.cpp */,
+				D309BE1B352149D082AE9C99 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcphuff.cpp */,
+				1FF1C429FB444A3BA7BC3C9F /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcprepct.cpp */,
+				C552E0AC9E444F8AACF6C72E /* /Users/andy/dev/dlib/dlib/external/libjpeg/jcsample.cpp */,
+				B84B02EFDFAE4E54AFC6C047 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdapimin.cpp */,
+				CA7BB689EE96408DBF06A93A /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdapistd.cpp */,
+				9AF9E7A53DBE45A5B3D8BD52 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdatadst.cpp */,
+				2F3170D006DC4EF09022F1DE /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdatasrc.cpp */,
+				2DAEDE38941E46C2B207761E /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdcoefct.cpp */,
+				4A4CAA1FD2394D929D97E17D /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdcolor.cpp */,
+				CEF39B22BBFB426FA81DF8B7 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jddctmgr.cpp */,
+				633D6B0E4EEE4F5594CE0CA4 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdhuff.cpp */,
+				B0E2365CC7A341A887943326 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdinput.cpp */,
+				CDD1E23C25354F40BC613ABA /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmainct.cpp */,
+				7B5566ED7BEB49B6BFBB218E /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmarker.cpp */,
+				A8BDEF10818149C9B30225DD /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmaster.cpp */,
+				451F64649FB04C50801604A8 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdmerge.cpp */,
+				1C66185E842E42FBB19C6C05 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdphuff.cpp */,
+				26BBF9B174A14314858112A1 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdpostct.cpp */,
+				A296CD1637DB4B22B2B0E6CF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jdsample.cpp */,
+				1E37843D7EA34F1B9FE88F68 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jerror.cpp */,
+				EAC4D9D9D3B0474DA898D8EE /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctflt.cpp */,
+				A6C75962841945EF9DE9CBFC /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctfst.cpp */,
+				C08686AFC11C43E59AC0D2FF /* /Users/andy/dev/dlib/dlib/external/libjpeg/jfdctint.cpp */,
+				14C9EE00E0CA4E1397E7A00B /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctflt.cpp */,
+				9F6B04A329184E89B2E2AEC8 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctfst.cpp */,
+				2145DF0A02334D98B2B51E30 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctint.cpp */,
+				7AFBD0E80C50491EAD3B37E2 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jidctred.cpp */,
+				A6DFC2B7424E4317A88B5F6B /* /Users/andy/dev/dlib/dlib/external/libjpeg/jmemmgr.cpp */,
+				6B09338F55D148718B22FE63 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jmemnobs.cpp */,
+				B75E200AD11F42C0BE16EF48 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jquant1.cpp */,
+				51F3AB1E584A4B0D9A9D417C /* /Users/andy/dev/dlib/dlib/external/libjpeg/jquant2.cpp */,
+				1DAC118D04E349679B6CE856 /* /Users/andy/dev/dlib/dlib/external/libjpeg/jutils.cpp */,
+				35AD1CB8826C4FCCB9809FBC /* /Users/andy/dev/dlib/dlib/gui_core/gui_core_kernel_1.cpp */,
+				7215FB21D0FB4D9EA651A003 /* /Users/andy/dev/dlib/dlib/gui_core/gui_core_kernel_2.cpp */,
+				7848BCA779924F609DDAD034 /* /Users/andy/dev/dlib/dlib/gui_widgets/base_widgets.cpp */,
+				33D69E2C9EE44166A81A3784 /* /Users/andy/dev/dlib/dlib/gui_widgets/canvas_drawing.cpp */,
+				ECF539F1DCF64092A97884B6 /* /Users/andy/dev/dlib/dlib/gui_widgets/drawable.cpp */,
+				3CA4D7F122A1489F81969FCA /* /Users/andy/dev/dlib/dlib/gui_widgets/fonts.cpp */,
+				4EFE48DFCA834968985529C1 /* /Users/andy/dev/dlib/dlib/gui_widgets/style.cpp */,
+				43898E74CC2E4463884CE775 /* /Users/andy/dev/dlib/dlib/gui_widgets/widgets.cpp */,
+				F4C25D5653A2408C9311F14B /* /Users/andy/dev/dlib/dlib/image_loader/jpeg_loader.cpp */,
+				27FCAFEDD5CA4552B42AEE9C /* /Users/andy/dev/dlib/dlib/image_loader/png_loader.cpp */,
+				24BD68A7D5E1435BBD878F33 /* /Users/andy/dev/dlib/dlib/image_saver/save_jpeg.cpp */,
+				F89556750E364125B2520190 /* /Users/andy/dev/dlib/dlib/image_saver/save_png.cpp */,
+				31F7CCEE81A0451D9A30545C /* /Users/andy/dev/dlib/dlib/linker/linker_kernel_1.cpp */,
+				30EB3892168342A8ADDD2A7E /* /Users/andy/dev/dlib/dlib/logger/extra_logger_headers.cpp */,
+				36080B72B4C24BBCA1062F16 /* /Users/andy/dev/dlib/dlib/logger/logger_config_file.cpp */,
+				4EE0282A3A9645FE96D3189B /* /Users/andy/dev/dlib/dlib/logger/logger_kernel_1.cpp */,
+				8E8DF237EB04480BA959E9D2 /* /Users/andy/dev/dlib/dlib/md5/md5_kernel_1.cpp */,
+				A4144248DE9544C7BC0F3DCF /* /Users/andy/dev/dlib/dlib/misc_api/misc_api_kernel_1.cpp */,
+				B869E15C2BD24481A3638C4F /* /Users/andy/dev/dlib/dlib/misc_api/misc_api_kernel_2.cpp */,
+				7B85EEF274AE4B61932AB963 /* /Users/andy/dev/dlib/dlib/server/server_http.cpp */,
+				A17E813B06E643FAA6E5E21A /* /Users/andy/dev/dlib/dlib/server/server_iostream.cpp */,
+				4640F868A7AF4973A2484157 /* /Users/andy/dev/dlib/dlib/server/server_kernel.cpp */,
+				E6CFFF7EEC5645769E45FF88 /* /Users/andy/dev/dlib/dlib/sockets/sockets_extensions.cpp */,
+				CCE1FF3EC52843EFA5E087EC /* /Users/andy/dev/dlib/dlib/sockets/sockets_kernel_1.cpp */,
+				31512282122A40B192EF368C /* /Users/andy/dev/dlib/dlib/sockets/sockets_kernel_2.cpp */,
+				81B79C9EAB8A486488389BBE /* /Users/andy/dev/dlib/dlib/sockstreambuf/sockstreambuf.cpp */,
+				D4317CA84D8A47C2BF93C0CE /* /Users/andy/dev/dlib/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp */,
+				8D580BE5D5064DD48C15653B /* /Users/andy/dev/dlib/dlib/stack_trace.cpp */,
+				5F1A2D3D321447459BEF3C01 /* /Users/andy/dev/dlib/dlib/threads/async.cpp */,
+				6EBB0CC020AE4B30BD81B643 /* /Users/andy/dev/dlib/dlib/threads/multithreaded_object_extension.cpp */,
+				A42E0D0118414633B1924DB4 /* /Users/andy/dev/dlib/dlib/threads/thread_pool_extension.cpp */,
+				A533C5A09ED54D6F9CC6FC70 /* /Users/andy/dev/dlib/dlib/threads/threaded_object_extension.cpp */,
+				B7B06928477D4BE296690A6C /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_1.cpp */,
+				8304892C0FBA4CD48156AABF /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_2.cpp */,
+				A24AE54325744890A67F29C2 /* /Users/andy/dev/dlib/dlib/threads/threads_kernel_shared.cpp */,
+				E16A6C3FDF0043B380B76F25 /* /Users/andy/dev/dlib/dlib/timer/timer.cpp */,
+				251DFA5696E04E08A409079B /* /Users/andy/dev/dlib/dlib/tokenizer/tokenizer_kernel_1.cpp */,
+				B95A161EF7AF45CD88D9DC86 /* /Users/andy/dev/dlib/dlib/unicode/unicode.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E21374851BD44C09E4A1BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA239BB1CFCE4608BD77BAD9 /* FaceMorph */;
+			targetProxy = 404F5543188444E5A4C7B952 /* PBXContainerItemProxy */;
+		};
+		278F1B3AF63E4AD5A96D6E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B35CECEB6ABE4E8A99C162D3 /* dlib */;
+			targetProxy = 87F4F0F016BA45D2ACC625AB /* PBXContainerItemProxy */;
+		};
+		55E63AEB10F04A2C9A41258A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DAD13D8F304C4292958139 /* ZERO_CHECK */;
+			targetProxy = 07B46D86257B40E1AFD6BBB9 /* PBXContainerItemProxy */;
+		};
+		6530279E92474CFDB5003DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26DAD13D8F304C4292958139 /* ZERO_CHECK */;
+			targetProxy = 078AE67A3D314A9AA650A611 /* PBXContainerItemProxy */;
+		};
+		F9A2FE65FBDF4AD5A60161D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B35CECEB6ABE4E8A99C162D3 /* dlib */;
+			targetProxy = 9092EE06625C4589B30315A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19D0706574364DF0A10399E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include,/Users/andy/dev/dlib/dlib/..,/usr);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11    -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT '-std=gnu++11' -I/usr/local/include/opencv -I/usr/local/include -I/Users/andy/dev/dlib/dlib/.. -I/usr    -ftemplate-depth=500";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_videostab.2.4.13.dylib /usr/local/lib/libopencv_ts.a /usr/local/lib/libopencv_superres.2.4.13.dylib /usr/local/lib/libopencv_stitching.2.4.13.dylib /usr/local/lib/libopencv_contrib.2.4.13.dylib /Users/andy/dev/facemorph/dlib_build/Debug/libdlib.a /usr/local/lib/libopencv_nonfree.2.4.13.dylib /usr/local/lib/libopencv_ocl.2.4.13.dylib /usr/local/lib/libopencv_gpu.2.4.13.dylib /usr/local/lib/libopencv_photo.2.4.13.dylib /usr/local/lib/libopencv_objdetect.2.4.13.dylib /usr/local/lib/libopencv_legacy.2.4.13.dylib /usr/local/lib/libopencv_video.2.4.13.dylib /usr/local/lib/libopencv_ml.2.4.13.dylib /usr/local/lib/libopencv_calib3d.2.4.13.dylib /usr/local/lib/libopencv_features2d.2.4.13.dylib /usr/local/lib/libopencv_highgui.2.4.13.dylib /usr/local/lib/libopencv_imgproc.2.4.13.dylib /usr/local/lib/libopencv_flann.2.4.13.dylib /usr/local/lib/libopencv_core.2.4.13.dylib -framework OpenCL /usr/X11R6/lib/libSM.dylib /usr/X11R6/lib/libICE.dylib /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib /usr/local/lib/libpng.dylib /usr/lib/libcblas.dylib /usr/lib/liblapack.dylib /usr/lib/libsqlite3.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FaceMorph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1A5B4CD1C4C14E91B73DD847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/andy/dev/facemorph/build;
+			};
+			name = Debug;
+		};
+		2944557CE5494A3BB78AD31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2EF992B0B9E14795885F9EEC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4B499400EEC74754A7644D39 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",DLIB_JPEG_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include,/usr/X11R6/include,/usr);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT '-std=gnu++11' -I/usr/local/include/opencv -I/usr/local/include -I/usr/X11R6/include -I/usr    -ftemplate-depth=500";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph/dlib_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5FD9289F2D834C66B4406C27 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/andy/dev/facemorph/build;
+			};
+			name = RelWithDebInfo;
+		};
+		611F0DA821B34D62A10EA894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/andy/dev/facemorph/build;
+			};
+			name = Release;
+		};
+		6BC04E5607814237848CACE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",DLIB_JPEG_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include,/usr/X11R6/include,/usr);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT '-std=gnu++11' -I/usr/local/include/opencv -I/usr/local/include -I/usr/X11R6/include -I/usr    -ftemplate-depth=500";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph/dlib_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		708E5AC4A52B4E3DB2A75F41 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8162194CB40B4BA3888C801D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include,/Users/andy/dev/dlib/dlib/..,/usr);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT '-std=gnu++11' -I/usr/local/include/opencv -I/usr/local/include -I/Users/andy/dev/dlib/dlib/.. -I/usr    -ftemplate-depth=500";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_videostab.2.4.13.dylib /usr/local/lib/libopencv_ts.a /usr/local/lib/libopencv_superres.2.4.13.dylib /usr/local/lib/libopencv_stitching.2.4.13.dylib /usr/local/lib/libopencv_contrib.2.4.13.dylib /Users/andy/dev/facemorph/dlib_build/Release/libdlib.a /usr/local/lib/libopencv_nonfree.2.4.13.dylib /usr/local/lib/libopencv_ocl.2.4.13.dylib /usr/local/lib/libopencv_gpu.2.4.13.dylib /usr/local/lib/libopencv_photo.2.4.13.dylib /usr/local/lib/libopencv_objdetect.2.4.13.dylib /usr/local/lib/libopencv_legacy.2.4.13.dylib /usr/local/lib/libopencv_video.2.4.13.dylib /usr/local/lib/libopencv_ml.2.4.13.dylib /usr/local/lib/libopencv_calib3d.2.4.13.dylib /usr/local/lib/libopencv_features2d.2.4.13.dylib /usr/local/lib/libopencv_highgui.2.4.13.dylib /usr/local/lib/libopencv_imgproc.2.4.13.dylib /usr/local/lib/libopencv_flann.2.4.13.dylib /usr/local/lib/libopencv_core.2.4.13.dylib -framework OpenCL /usr/X11R6/lib/libSM.dylib /usr/X11R6/lib/libICE.dylib /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib /usr/local/lib/libpng.dylib /usr/lib/libcblas.dylib /usr/lib/liblapack.dylib /usr/lib/libsqlite3.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FaceMorph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8C81BC4D1DFC437EA755548A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		93AAC81A76394DF29E134E5B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include,/Users/andy/dev/dlib/dlib/..,/usr);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11     -DNDEBUG -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT '-std=gnu++11' -I/usr/local/include/opencv -I/usr/local/include -I/Users/andy/dev/dlib/dlib/.. -I/usr    -ftemplate-depth=500";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_videostab.2.4.13.dylib /usr/local/lib/libopencv_ts.a /usr/local/lib/libopencv_superres.2.4.13.dylib /usr/local/lib/libopencv_stitching.2.4.13.dylib /usr/local/lib/libopencv_contrib.2.4.13.dylib /Users/andy/dev/facemorph/dlib_build/MinSizeRel/libdlib.a /usr/local/lib/libopencv_nonfree.2.4.13.dylib /usr/local/lib/libopencv_ocl.2.4.13.dylib /usr/local/lib/libopencv_gpu.2.4.13.dylib /usr/local/lib/libopencv_photo.2.4.13.dylib /usr/local/lib/libopencv_objdetect.2.4.13.dylib /usr/local/lib/libopencv_legacy.2.4.13.dylib /usr/local/lib/libopencv_video.2.4.13.dylib /usr/local/lib/libopencv_ml.2.4.13.dylib /usr/local/lib/libopencv_calib3d.2.4.13.dylib /usr/local/lib/libopencv_features2d.2.4.13.dylib /usr/local/lib/libopencv_highgui.2.4.13.dylib /usr/local/lib/libopencv_imgproc.2.4.13.dylib /usr/local/lib/libopencv_flann.2.4.13.dylib /usr/local/lib/libopencv_core.2.4.13.dylib -framework OpenCL /usr/X11R6/lib/libSM.dylib /usr/X11R6/lib/libICE.dylib /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib /usr/local/lib/libpng.dylib /usr/lib/libcblas.dylib /usr/lib/liblapack.dylib /usr/lib/libsqlite3.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FaceMorph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9BBD551346CC44BD879BB6B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",DLIB_JPEG_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include,/usr/X11R6/include,/usr);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11    -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT '-std=gnu++11' -I/usr/local/include/opencv -I/usr/local/include -I/usr/X11R6/include -I/usr    -ftemplate-depth=500";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph/dlib_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AC05B765FD44427BAF321486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B1656E4387854987A541C0C8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",DLIB_JPEG_STATIC);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include,/usr/X11R6/include,/usr);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11        -DNDEBUG -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT '-std=gnu++11' -I/usr/local/include/opencv -I/usr/local/include -I/usr/X11R6/include -I/usr    -ftemplate-depth=500";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dlib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph/dlib_build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B3A3BB0E7ED7403486FD54B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		B4D2CE23D0AA4BAFB9620EE4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include,/Users/andy/dev/dlib/dlib/..,/usr);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11        -DNDEBUG -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_PNG_SUPPORT '-std=gnu++11' -I/usr/local/include/opencv -I/usr/local/include -I/Users/andy/dev/dlib/dlib/.. -I/usr    -ftemplate-depth=500";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_videostab.2.4.13.dylib /usr/local/lib/libopencv_ts.a /usr/local/lib/libopencv_superres.2.4.13.dylib /usr/local/lib/libopencv_stitching.2.4.13.dylib /usr/local/lib/libopencv_contrib.2.4.13.dylib /Users/andy/dev/facemorph/dlib_build/RelWithDebInfo/libdlib.a /usr/local/lib/libopencv_nonfree.2.4.13.dylib /usr/local/lib/libopencv_ocl.2.4.13.dylib /usr/local/lib/libopencv_gpu.2.4.13.dylib /usr/local/lib/libopencv_photo.2.4.13.dylib /usr/local/lib/libopencv_objdetect.2.4.13.dylib /usr/local/lib/libopencv_legacy.2.4.13.dylib /usr/local/lib/libopencv_video.2.4.13.dylib /usr/local/lib/libopencv_ml.2.4.13.dylib /usr/local/lib/libopencv_calib3d.2.4.13.dylib /usr/local/lib/libopencv_features2d.2.4.13.dylib /usr/local/lib/libopencv_highgui.2.4.13.dylib /usr/local/lib/libopencv_imgproc.2.4.13.dylib /usr/local/lib/libopencv_flann.2.4.13.dylib /usr/local/lib/libopencv_core.2.4.13.dylib -framework OpenCL /usr/X11R6/lib/libSM.dylib /usr/X11R6/lib/libICE.dylib /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib /usr/local/lib/libpng.dylib /usr/lib/libcblas.dylib /usr/lib/liblapack.dylib /usr/lib/libsqlite3.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FaceMorph;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CEE829418E554F8FACC92CF5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D03B2E23EBC741EEB4EF6352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv,/usr/local/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/andy/dev/facemorph;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DBB8C313844B41959230CC17 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = /Users/andy/dev/facemorph/build;
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8B18B2D1CF4A06880F6839 /* Build configuration list for PBXNativeTarget "dlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BBD551346CC44BD879BB6B7 /* Debug */,
+				6BC04E5607814237848CACE4 /* Release */,
+				4B499400EEC74754A7644D39 /* MinSizeRel */,
+				B1656E4387854987A541C0C8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BF2205BA9A2B44E9BE01CE53 /* Build configuration list for PBXProject "FaceMorph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5B4CD1C4C14E91B73DD847 /* Debug */,
+				611F0DA821B34D62A10EA894 /* Release */,
+				DBB8C313844B41959230CC17 /* MinSizeRel */,
+				5FD9289F2D834C66B4406C27 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C83C2F1E627F4111B47712E9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A3BB0E7ED7403486FD54B8 /* Debug */,
+				D03B2E23EBC741EEB4EF6352 /* Release */,
+				CEE829418E554F8FACC92CF5 /* MinSizeRel */,
+				2EF992B0B9E14795885F9EEC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DEC4CF276914490C97890268 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC05B765FD44427BAF321486 /* Debug */,
+				2944557CE5494A3BB78AD31F /* Release */,
+				708E5AC4A52B4E3DB2A75F41 /* MinSizeRel */,
+				8C81BC4D1DFC437EA755548A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F719FC9BBC624C05976DEF0D /* Build configuration list for PBXNativeTarget "FaceMorph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D0706574364DF0A10399E9 /* Debug */,
+				8162194CB40B4BA3888C801D /* Release */,
+				93AAC81A76394DF29E134E5B /* MinSizeRel */,
+				B4D2CE23D0AA4BAFB9620EE4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DDB587E37F349009D2AD65B /* Project object */;
+}

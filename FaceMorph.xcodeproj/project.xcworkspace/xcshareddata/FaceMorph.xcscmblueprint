@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "381BD6813E3B07EC7F0B01BEAA3F42990C64F3F8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "381BD6813E3B07EC7F0B01BEAA3F42990C64F3F8" : 9223372036854775807,
+    "EC40830A4F35BD92B5286FE1AE5D22F26EDA8D5E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9E4E4D89-B81B-46F5-961E-2636701B4786",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "381BD6813E3B07EC7F0B01BEAA3F42990C64F3F8" : "facemorph\/",
+    "EC40830A4F35BD92B5286FE1AE5D22F26EDA8D5E" : "dlib\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FaceMorph",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FaceMorph.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ZAndyL\/facemorph.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "381BD6813E3B07EC7F0B01BEAA3F42990C64F3F8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/davisking\/dlib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EC40830A4F35BD92B5286FE1AE5D22F26EDA8D5E"
+    }
+  ]
+}
